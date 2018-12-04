@@ -23,7 +23,7 @@ Just click on the run button!
 
 `@pre_exercise_code`
 ```{python}
-print("Hi")
+
 ```
 
 `@sample_code`
