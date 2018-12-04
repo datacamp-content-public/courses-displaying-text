@@ -28,7 +28,7 @@ print("Hi")
 
 `@sample_code`
 ```{python}
-
+print("Hi")
 ```
 
 `@solution`
@@ -38,5 +38,5 @@ print("Hi")
 
 `@sct`
 ```{python}
-
+print("Hi")
 ```
