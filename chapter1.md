@@ -56,11 +56,13 @@ Outputting text using the print function.
 
 `@instructions`
 Python uses the `print()` function to output information to the screen.
-Anything between the parenthesis will appear on the screen.
+Anything between the parenthesis will appear on the screen. Anything you add between the parenthesis is called _an argument_.
 Try to print out your name in the windows below.
+The output should be in this format:
+`My name is _name_.`
 
 `@hint`
-
+You must write `print` in lower case and put and your
 
 `@pre_exercise_code`
 ```{python}
