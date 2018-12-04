@@ -38,5 +38,6 @@ print("Hi")
 
 `@sct`
 ```{python}
-Ex().has_printout("Hi0")
+Ex().has_printout("Hi")
+msg = "Well done"
 ```
