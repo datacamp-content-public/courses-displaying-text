@@ -3,7 +3,7 @@ title: 'Creating an output'
 description: 'How to use the print function to create an output using Python'
 ---
 
-## Example 1
+## Display Text Example 1
 
 ```yaml
 type: NormalExercise
@@ -44,7 +44,7 @@ success_msg("Well Done!")
 
 ---
 
-## Insert exercise title here
+## Creating a basic output
 
 ```yaml
 type: NormalExercise
@@ -61,14 +61,14 @@ When we want the computer output text, we must also use quotation marks surround
 `"hi"`
 Try to print out your name in the windows below.
 The output should be in this format:
-`My name is _name_.`
+`My name is EnterYourName.`
 
 `@hint`
 You must write `print` in lower case and put and your argument between the parenthesis.
 
 `@pre_exercise_code`
 ```{python}
-
+# Enter your code below this line
 ```
 
 `@sample_code`
@@ -78,11 +78,11 @@ You must write `print` in lower case and put and your argument between the paren
 
 `@solution`
 ```{python}
-
+print("My name is Barry Scott")
 ```
 
 `@sct`
 ```{python}
-Ex().has_output(r'[H|h]i,\s+my name is \w+')
+Ex().has_output(r'[H|h]i,\s+my name is \w+', no_output_msg = "Whoops! You forgot to write anything.")
 success_msg("Well Done!")
 ```
