@@ -52,10 +52,12 @@ key: ffc6e00c2d
 xp: 100
 ```
 
-
+Outputting text using the print function.
 
 `@instructions`
-
+Python uses the `print()` function to output information to the screen.
+Anything between the parenthesis will appear on the screen.
+Try to print out your name in the windows below.
 
 `@hint`
 
