@@ -84,5 +84,5 @@ You must write `print` in lower case and put and your argument between the paren
 `@sct`
 ```{python}
 Ex().has_output(r'[H|h]i,\s+my name is \w+')
-success_message = "Excellent well done!"
+success_msg("Well Done!")
 ```
