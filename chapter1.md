@@ -1,9 +1,9 @@
 ---
-title: 'Chapter Title Here'
-description: 'Chapter description goes here.'
+title: 'Creating an output'
+description: 'How to use the print function to create an output using Python'
 ---
 
-## Example coding exercise
+## Example 1
 
 ```yaml
 type: NormalExercise
@@ -13,17 +13,17 @@ xp: 100
 skills: 2
 ```
 
-This is an example exercise.
+The example below demonstrates how to code a very simple output using Python
 
 `@instructions`
-
+All you have to do here is take a look at the code and then click on RUN
 
 `@hint`
-
+Just click on the run button!
 
 `@pre_exercise_code`
 ```{python}
-
+print("Hi")
 ```
 
 `@sample_code`
@@ -33,7 +33,7 @@ This is an example exercise.
 
 `@solution`
 ```{python}
-
+print("Hi")
 ```
 
 `@sct`
