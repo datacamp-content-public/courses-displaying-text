@@ -57,12 +57,14 @@ Outputting text using the print function.
 `@instructions`
 Python uses the `print()` function to output information to the screen.
 Anything between the parenthesis will appear on the screen. Anything you add between the parenthesis is called _an argument_.
+When we want the computer output text, we must also use quotation marks surrounding out text like in the previous example.
+`"hi"`
 Try to print out your name in the windows below.
 The output should be in this format:
 `My name is _name_.`
 
 `@hint`
-You must write `print` in lower case and put and your
+You must write `print` in lower case and put and your argument between the parenthesis.
 
 `@pre_exercise_code`
 ```{python}
@@ -81,5 +83,6 @@ You must write `print` in lower case and put and your
 
 `@sct`
 ```{python}
-
+Ex().has_output(r'[H|h]i,\s+my name is \w+')
+success_message = "Excellent well done!"
 ```
