@@ -41,3 +41,41 @@ print("Hi")
 Ex().has_output(r'Hi')
 success_msg("Well Done!")
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+key: ffc6e00c2d
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
