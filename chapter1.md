@@ -38,5 +38,5 @@ print("Hi")
 
 `@sct`
 ```{python}
-print("Hi")
+Ex().has_output("Hi", pattern = False)
 ```
