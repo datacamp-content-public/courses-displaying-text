@@ -39,5 +39,5 @@ print("Hi")
 `@sct`
 ```{python}
 Ex().has_output(r'Hi')
-msg = "Well done"
+success_msg("Well Done!")
 ```
