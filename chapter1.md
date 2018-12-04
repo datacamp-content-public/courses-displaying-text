@@ -19,7 +19,7 @@ The example below demonstrates how to code a very simple output using Python
 All you have to do here is take a look at the code and then click on RUN
 
 `@hint`
-Just click on the run button!
+You just click on the run button!
 
 `@pre_exercise_code`
 ```{python}
@@ -38,5 +38,5 @@ print("Hi")
 
 `@sct`
 ```{python}
-Ex().has_output("Hi", pattern = False)
+Ex().has_printout("Hi0")
 ```
